@@ -3,3 +3,9 @@ one:
   last_name: 'Marquez'
   email: 'ivan.marquez@live.com.mx'
   profile_name: 'ivan.marquez'
+
+two:
+  first_name: 'Sergio'
+  last_name: 'Aguirre'
+  email: 'sergio.aguirre@live.com.mx'
+  profile_name: 'sergio.aguirre'

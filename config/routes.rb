@@ -13,6 +13,8 @@ Treebook::Application.routes.draw do
   get 'feed', :to => 'statuses#index', :as => :feed
   root :to => "statuses#index"
 
+  get '/:id', to: 'profiles#show', :constraints  => { :id => /[a-zA-Z0-9._-]+/ }
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
